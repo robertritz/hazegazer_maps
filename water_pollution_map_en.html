@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c17be87c2503d6fcf7e62fbb2a4021b9 {
+                #map_69003101313a3ae2700b97e23d76a63d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,13 +38,13 @@
              <h3 align="center" style="font-size:16px;">Measured water pollution from heavy metals. Samples taken between 04-2022 and 09-2022.</h3>
              
     
-            <div class="folium-map" id="map_c17be87c2503d6fcf7e62fbb2a4021b9" ></div>
+            <div class="folium-map" id="map_69003101313a3ae2700b97e23d76a63d" ></div>
         
 </body>
 <script>    
     
-            var map_c17be87c2503d6fcf7e62fbb2a4021b9 = L.map(
-                "map_c17be87c2503d6fcf7e62fbb2a4021b9",
+            var map_69003101313a3ae2700b97e23d76a63d = L.map(
+                "map_69003101313a3ae2700b97e23d76a63d",
                 {
                     center: [47.905776, 106.900458],
                     crs: L.CRS.EPSG3857,
@@ -59,196 +59,196 @@
 
         
     
-            var tile_layer_1a0c1795aaf0f886a89f88bc8a73c450 = L.tileLayer(
+            var tile_layer_708a495685481694aa872fab775e9b93 = L.tileLayer(
                 "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iZXJ0cml0eiIsImEiOiJjam01dGZtcnIxNDJhM3ZtbWZlMHFjZHc1In0.01rvohTgnLlD4VDtrQZX8g",
                 {"attribution": "Mapbox", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-            var circle_marker_aacf63c027612c6b7ea0c7bfba01464e = L.circleMarker(
+            var circle_marker_a683b87773db9ee5dab22ec543e1dc8d = L.circleMarker(
                 [47.91441, 106.83008],
                 {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_11cc78f60bf880b9f5510a5f9b0eadac = L.popup({"maxWidth": 1000});
+        var popup_ac19a7f9d914a207f243ea68b9cb1138 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_d7135a965c510827196f07bbc0a03468 = $(`<div id="html_d7135a965c510827196f07bbc0a03468" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>1-r horoollin hurin us hayah suvag</b></font><br>04-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.001 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br><font style="color:red"><b>Nickel: 0.019 ppm</b></font><br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.005 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.006 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_11cc78f60bf880b9f5510a5f9b0eadac.setContent(html_d7135a965c510827196f07bbc0a03468);
+                var html_7a382123285b76de32f07eb1c2fa240c = $(`<div id="html_7a382123285b76de32f07eb1c2fa240c" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>1-r horoollin hurin us hayah suvag</b></font><br>04-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.001 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br><b>Nickel: 0.019 ppm</b><br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.005 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.006 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_ac19a7f9d914a207f243ea68b9cb1138.setContent(html_7a382123285b76de32f07eb1c2fa240c);
             
         
 
-        circle_marker_aacf63c027612c6b7ea0c7bfba01464e.bindPopup(popup_11cc78f60bf880b9f5510a5f9b0eadac)
+        circle_marker_a683b87773db9ee5dab22ec543e1dc8d.bindPopup(popup_ac19a7f9d914a207f243ea68b9cb1138)
         ;
 
         
     
     
-            var circle_marker_22e2b865af9a85bcc952de105f21348d = L.circleMarker(
+            var circle_marker_28c800250a0b5c2a9d6b9583083ccc2a = L.circleMarker(
                 [47.87316, 106.78448],
-                {"bubblingMouseEvents": true, "color": "#595959", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#595959", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+                {"bubblingMouseEvents": true, "color": "#878787", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#878787", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_3f86303c4f6bf958ccedfc1405000e5e = L.popup({"maxWidth": 1000});
+        var popup_5035dcc72379d93cb28b9177572d739c = L.popup({"maxWidth": 1000});
 
         
             
-                var html_c2752c3a0be12f1146a8b2da0bc717bb = $(`<div id="html_c2752c3a0be12f1146a8b2da0bc717bb" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Sonsgolongiin guur</b></font><br>04-2022<br>Arsenic: 0.0 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><br>09-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_3f86303c4f6bf958ccedfc1405000e5e.setContent(html_c2752c3a0be12f1146a8b2da0bc717bb);
+                var html_d7fb684a7c3a7ebf45483139e6a330a3 = $(`<div id="html_d7fb684a7c3a7ebf45483139e6a330a3" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Sonsgolongiin guur</b></font><br>04-2022<br>Arsenic: 0.0 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><br>09-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_5035dcc72379d93cb28b9177572d739c.setContent(html_d7fb684a7c3a7ebf45483139e6a330a3);
             
         
 
-        circle_marker_22e2b865af9a85bcc952de105f21348d.bindPopup(popup_3f86303c4f6bf958ccedfc1405000e5e)
+        circle_marker_28c800250a0b5c2a9d6b9583083ccc2a.bindPopup(popup_5035dcc72379d93cb28b9177572d739c)
         ;
 
         
     
     
-            var circle_marker_606ec9abe5add0e2383d72ddd25a1848 = L.circleMarker(
+            var circle_marker_e60d7409e82198b7c3cb6cb76793ef11 = L.circleMarker(
                 [47.8906, 106.7349],
                 {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_2ee2dda0965473e95665e8a0b1539f99 = L.popup({"maxWidth": 1000});
+        var popup_95a3f5b3ac5626550baa83618d1b7cd8 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_277e600947b00a2e0ede3328aee16cdd = $(`<div id="html_277e600947b00a2e0ede3328aee16cdd" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>TTsB-iin hayagdal usni suvag</b></font><br>04-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br><font style="color:red"><b>Zinc: 0.013 ppm</b></font><br><br>07-2022<br><br>09-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.003 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_2ee2dda0965473e95665e8a0b1539f99.setContent(html_277e600947b00a2e0ede3328aee16cdd);
+                var html_cf3289220bf6ff858a966376f8710851 = $(`<div id="html_cf3289220bf6ff858a966376f8710851" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>TTsB-iin hayagdal usni suvag</b></font><br>04-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br><b>Zinc: 0.013 ppm</b><br><br>07-2022<br><br>09-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.003 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_95a3f5b3ac5626550baa83618d1b7cd8.setContent(html_cf3289220bf6ff858a966376f8710851);
             
         
 
-        circle_marker_606ec9abe5add0e2383d72ddd25a1848.bindPopup(popup_2ee2dda0965473e95665e8a0b1539f99)
+        circle_marker_e60d7409e82198b7c3cb6cb76793ef11.bindPopup(popup_95a3f5b3ac5626550baa83618d1b7cd8)
         ;
 
         
     
     
-            var circle_marker_caed7ec0082c95ff724109767de3d3ed = L.circleMarker(
+            var circle_marker_e53d2bd5813424a81ca13174492b59a8 = L.circleMarker(
                 [47.8484, 106.6761],
-                {"bubblingMouseEvents": true, "color": "#595959", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#595959", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+                {"bubblingMouseEvents": true, "color": "#878787", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#878787", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_8b8b371f78f0310c94add966c028fa7d = L.popup({"maxWidth": 1000});
+        var popup_69e04e9022e2dec7ccb82bfaa3f20258 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_215a5860bdec6fe8b3a11b70c66216e1 = $(`<div id="html_215a5860bdec6fe8b3a11b70c66216e1" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Biokombinatin guur</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><br>09-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_8b8b371f78f0310c94add966c028fa7d.setContent(html_215a5860bdec6fe8b3a11b70c66216e1);
+                var html_13126a97f795d542a8b2033d18544c0b = $(`<div id="html_13126a97f795d542a8b2033d18544c0b" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Biokombinatin guur</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><br>09-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_69e04e9022e2dec7ccb82bfaa3f20258.setContent(html_13126a97f795d542a8b2033d18544c0b);
             
         
 
-        circle_marker_caed7ec0082c95ff724109767de3d3ed.bindPopup(popup_8b8b371f78f0310c94add966c028fa7d)
+        circle_marker_e53d2bd5813424a81ca13174492b59a8.bindPopup(popup_69e04e9022e2dec7ccb82bfaa3f20258)
         ;
 
         
     
     
-            var circle_marker_a2852c8d8f81a38fd1e4d01a2a6c1552 = L.circleMarker(
+            var circle_marker_aefab3d9cb0abee6e8ff77aa18cd2508 = L.circleMarker(
                 [47.92575, 106.9315],
-                {"bubblingMouseEvents": true, "color": "#595959", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#595959", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+                {"bubblingMouseEvents": true, "color": "#878787", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#878787", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_4c54e3fb374d5668edb3c202c355c320 = L.popup({"maxWidth": 1000});
+        var popup_afb1861247f78407f8bc260fb922f0d3 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_6dac54d6b15ce1b8aff8545d40ddb8f1 = $(`<div id="html_6dac54d6b15ce1b8aff8545d40ddb8f1" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Zuun Selbe</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.01 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.004 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_4c54e3fb374d5668edb3c202c355c320.setContent(html_6dac54d6b15ce1b8aff8545d40ddb8f1);
+                var html_dc9a4d54768a2d4e0652896ec4726964 = $(`<div id="html_dc9a4d54768a2d4e0652896ec4726964" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Zuun Selbe</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.01 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.004 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_afb1861247f78407f8bc260fb922f0d3.setContent(html_dc9a4d54768a2d4e0652896ec4726964);
             
         
 
-        circle_marker_a2852c8d8f81a38fd1e4d01a2a6c1552.bindPopup(popup_4c54e3fb374d5668edb3c202c355c320)
+        circle_marker_aefab3d9cb0abee6e8ff77aa18cd2508.bindPopup(popup_afb1861247f78407f8bc260fb922f0d3)
         ;
 
         
     
     
-            var circle_marker_73643216f83f2530d17292d388557364 = L.circleMarker(
+            var circle_marker_4d18c842bfec289f0172afd720906316 = L.circleMarker(
                 [47.942462, 106.927077],
-                {"bubblingMouseEvents": true, "color": "#595959", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#595959", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+                {"bubblingMouseEvents": true, "color": "#878787", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#878787", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_0163e0a55ea4ac4123fa1d1026b705d8 = L.popup({"maxWidth": 1000});
+        var popup_5d8cb79f1c5f21f3320b235f7ea3f6ea = L.popup({"maxWidth": 1000});
 
         
             
-                var html_2141a84b9d0c158f115492ce5bc38280 = $(`<div id="html_2141a84b9d0c158f115492ce5bc38280" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>32-in toirog</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.004 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_0163e0a55ea4ac4123fa1d1026b705d8.setContent(html_2141a84b9d0c158f115492ce5bc38280);
+                var html_e5871bc9708eab8ccf5de1cf91be3951 = $(`<div id="html_e5871bc9708eab8ccf5de1cf91be3951" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>32-in toirog</b></font><br>04-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.001 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.004 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_5d8cb79f1c5f21f3320b235f7ea3f6ea.setContent(html_e5871bc9708eab8ccf5de1cf91be3951);
             
         
 
-        circle_marker_73643216f83f2530d17292d388557364.bindPopup(popup_0163e0a55ea4ac4123fa1d1026b705d8)
+        circle_marker_4d18c842bfec289f0172afd720906316.bindPopup(popup_5d8cb79f1c5f21f3320b235f7ea3f6ea)
         ;
 
         
     
     
-            var circle_marker_7fa44adba82adb1be3c937debefff490 = L.circleMarker(
+            var circle_marker_66037053aeac94409a56d3226136eb37 = L.circleMarker(
                 [47.94845, 106.839092],
                 {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_af79f930e5ca258fe28f46cf4b21c1cb = L.popup({"maxWidth": 1000});
+        var popup_841d3bad343b6e6395c502c1e9bd7504 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_f490594bc0d6bf732f984c8c880ad923 = $(`<div id="html_f490594bc0d6bf732f984c8c880ad923" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Nuden nuur SKHD</b></font><br>04-2022<br>Arsenic: 0.006 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><font style="color:red"><b>Arsenic: 0.021 ppm</b></font><br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br><font style="color:red"><b>Arsenic: 0.029 ppm</b></font><br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.005 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_af79f930e5ca258fe28f46cf4b21c1cb.setContent(html_f490594bc0d6bf732f984c8c880ad923);
+                var html_0a182e5cc48cb31dec930361b3029667 = $(`<div id="html_0a182e5cc48cb31dec930361b3029667" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Nuden nuur SKHD</b></font><br>04-2022<br>Arsenic: 0.006 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br><b>Arsenic: 0.021 ppm</b><br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br><b>Arsenic: 0.029 ppm</b><br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.005 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_841d3bad343b6e6395c502c1e9bd7504.setContent(html_0a182e5cc48cb31dec930361b3029667);
             
         
 
-        circle_marker_7fa44adba82adb1be3c937debefff490.bindPopup(popup_af79f930e5ca258fe28f46cf4b21c1cb)
+        circle_marker_66037053aeac94409a56d3226136eb37.bindPopup(popup_841d3bad343b6e6395c502c1e9bd7504)
         ;
 
         
     
     
-            var circle_marker_e3e28068b05830dce7ee827ee835be5e = L.circleMarker(
+            var circle_marker_60b8c745983ebcc777e3f1424d19e920 = L.circleMarker(
                 [47.929758, 106.908208],
                 {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_65e0148ab0458baaebda0a93b616feb3 = L.popup({"maxWidth": 1000});
+        var popup_ba0556857e8b5d1dbd36a63f151f9623 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_d5b39d10d4391f33c25f19e066053fe2 = $(`<div id="html_d5b39d10d4391f33c25f19e066053fe2" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Nogoon nuur</b></font><br>04-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.006 ppm<br>Cadmium: 0.001 ppm<br>Chromium: 0.0 ppm<br><font style="color:red"><b>Nickel: 0.046 ppm</b></font><br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br><font style="color:red"><b>Nickel: 0.013 ppm</b></font><br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
-                popup_65e0148ab0458baaebda0a93b616feb3.setContent(html_d5b39d10d4391f33c25f19e066053fe2);
+                var html_92d225e4009962c65dd0532b9621df90 = $(`<div id="html_92d225e4009962c65dd0532b9621df90" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Nogoon nuur</b></font><br>04-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.008 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.006 ppm<br>Cadmium: 0.001 ppm<br>Chromium: 0.0 ppm<br><b>Nickel: 0.046 ppm</b><br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm<br><br>09-2022<br>Arsenic: 0.003 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br><b>Nickel: 0.013 ppm</b><br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm</div>`)[0];
+                popup_ba0556857e8b5d1dbd36a63f151f9623.setContent(html_92d225e4009962c65dd0532b9621df90);
             
         
 
-        circle_marker_e3e28068b05830dce7ee827ee835be5e.bindPopup(popup_65e0148ab0458baaebda0a93b616feb3)
+        circle_marker_60b8c745983ebcc777e3f1424d19e920.bindPopup(popup_ba0556857e8b5d1dbd36a63f151f9623)
         ;
 
         
     
     
-            var circle_marker_963997ca0c72d22aa31d76b3744dde9d = L.circleMarker(
+            var circle_marker_6b8a631e5c3c00ac02dccae3d575be94 = L.circleMarker(
                 [47.920444, 107.023583],
-                {"bubblingMouseEvents": true, "color": "#595959", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#595959", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_c17be87c2503d6fcf7e62fbb2a4021b9);
+                {"bubblingMouseEvents": true, "color": "#878787", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#878787", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_69003101313a3ae2700b97e23d76a63d);
         
     
-        var popup_9ae36f75a0fec0d3633ab9ffd56428d6 = L.popup({"maxWidth": 1000});
+        var popup_aac1f1fad4fe6a92ae95677ae6960cf3 = L.popup({"maxWidth": 1000});
 
         
             
-                var html_5ce039eb8b2c49bc9f0ba0800897fb6c = $(`<div id="html_5ce039eb8b2c49bc9f0ba0800897fb6c" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Uliastai gol</b></font><br>04-2022<br>Arsenic: 0.0 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.003 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm<br><br>09-2022</div>`)[0];
-                popup_9ae36f75a0fec0d3633ab9ffd56428d6.setContent(html_5ce039eb8b2c49bc9f0ba0800897fb6c);
+                var html_a1f3e12950d9c8aaeca9a3b530c66efd = $(`<div id="html_a1f3e12950d9c8aaeca9a3b530c66efd" style="width: 100.0%; height: 100.0%;"><font size="+0.5"><b>Uliastai gol</b></font><br>04-2022<br>Arsenic: 0.0 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.0 ppm<br>Lead: 0.0 ppm<br>Zinc: 0.0 ppm<br><br>07-2022<br>Arsenic: 0.002 ppm<br>Cadmium: 0.0 ppm<br>Chromium: 0.0 ppm<br>Nickel: 0.003 ppm<br>Lead: 0.001 ppm<br>Zinc: 0.0 ppm<br><br>09-2022</div>`)[0];
+                popup_aac1f1fad4fe6a92ae95677ae6960cf3.setContent(html_a1f3e12950d9c8aaeca9a3b530c66efd);
             
         
 
-        circle_marker_963997ca0c72d22aa31d76b3744dde9d.bindPopup(popup_9ae36f75a0fec0d3633ab9ffd56428d6)
+        circle_marker_6b8a631e5c3c00ac02dccae3d575be94.bindPopup(popup_aac1f1fad4fe6a92ae95677ae6960cf3)
         ;
 
         
