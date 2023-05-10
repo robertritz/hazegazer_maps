@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fe6d451eb470c29d7dc9b04e5eae709c {
+                #map_edb53f36a7dd868fe878eb30d561afb8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -48,16 +48,16 @@
 </head>
 <body>    
     
-             <h3 align="center" style="font-size:16px;">7-day Air Quality Map for 2023-05-02 to 2023-05-09</h3>
+             <h3 align="center" style="font-size:16px;">7-day Air Quality Map for 2023-05-03 to 2023-05-10</h3>
              
     
-            <div class="folium-map" id="map_fe6d451eb470c29d7dc9b04e5eae709c" ></div>
+            <div class="folium-map" id="map_edb53f36a7dd868fe878eb30d561afb8" ></div>
         
 </body>
 <script>    
     
-            var map_fe6d451eb470c29d7dc9b04e5eae709c = L.map(
-                "map_fe6d451eb470c29d7dc9b04e5eae709c",
+            var map_edb53f36a7dd868fe878eb30d561afb8 = L.map(
+                "map_edb53f36a7dd868fe878eb30d561afb8",
                 {
                     center: [47.935776, 106.920458],
                     crs: L.CRS.EPSG3857,
@@ -73,206 +73,222 @@
 
         
     
-            var tile_layer_146b3225daf957ac32b098940b1f0a22 = L.tileLayer(
+            var tile_layer_48143a17ba8f99401c7153888962cacc = L.tileLayer(
                 "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iZXJ0cml0eiIsImEiOiJjam01dGZtcnIxNDJhM3ZtbWZlMHFjZHc1In0.01rvohTgnLlD4VDtrQZX8g",
                 {"attribution": "Mapbox", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            var image_overlay_a8b6ef162e5c1867c7eb61f0bc04656b = L.imageOverlay(
+            var image_overlay_d4f9ea1e3abff8e59c642df5c459a5b6 = L.imageOverlay(
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAH0CAYAAADfWf7fAAAb1klEQVR4Xu3WQQ0AMAwDsZY/zfHYpME4uQzi9JGdM3ccAQIECBAgQIAAgajAGrzRZsUiQIAAAQIECBD4AgavRyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEDB4/QABAgQIECBAgEBawOBN1yscAQIECBAgQICAwesHCBAgQIAAAQIE0gIGb7pe4QgQIECAAAECBAxeP0CAAAECBAgQIJAWMHjT9QpHgAABAgQIECBg8PoBAgQIECBAgACBtIDBm65XOAIECBAgQIAAAYPXDxAgQIAAAQIECKQFDN50vcIRIECAAAECBAgYvH6AAAECBAgQIEAgLWDwpusVjgABAgQIECBAwOD1AwQIECBAgAABAmkBgzddr3AECBAgQIAAAQIGrx8gQIAAAQIECBBICxi86XqFI0CAAAECBAgQMHj9AAECBAgQIECAQFrA4E3XKxwBAgQIECBAgIDB6wcIECBAgAABAgTSAgZvul7hCBAgQIAAAQIEDF4/QIAAAQIECBAgkBYweNP1CkeAAAECBAgQIGDw+gECBAgQIECAAIG0gMGbrlc4AgQIECBAgAABg9cPECBAgAABAgQIpAUM3nS9whEgQIAAAQIECBi8foAAAQIECBAgQCAtYPCm6xWOAAECBAgQIEDA4PUDBAgQIECAAAECaQGDN12vcAQIECBAgAABAgavHyBAgAABAgQIEEgLGLzpeoUjQIAAAQIECBAweP0AAQIECBAgQIBAWsDgTdcrHAECBAgQIECAgMHrBwgQIECAAAECBNICBm+6XuEIECBAgAABAgQMXj9AgAABAgQIECCQFjB40/UKR4AAAQIECBAgYPD6AQIECBAgQIAAgbSAwZuuVzgCBAgQIECAAAGD1w8QIECAAAECBAikBQzedL3CESBAgAABAgQIGLx+gAABAgQIECBAIC1g8KbrFY4AAQIECBAgQMDg9QMECBAgQIAAAQJpAYM3Xa9wBAgQIECAAAECBq8fIECAAAECBAgQSAsYvOl6hSNAgAABAgQIEHjP/LF+tYYnkAAAAABJRU5ErkJggg==",
                 [[47.822221, 107.151175], [47.975652, 106.695092]],
                 {"crossOrigin": false, "interactive": false, "opacity": 0.2, "zindex": 1}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            var circle_marker_2472e864c0210bef1a0fd9137b19db92 = L.circleMarker(
+            var circle_marker_9cfc8f48ac1e6b3da3540c95d50161f8 = L.circleMarker(
                 [47.917980000000114, 106.84806000000017],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_2472e864c0210bef1a0fd9137b19db92.bindTooltip(
+            circle_marker_9cfc8f48ac1e6b3da3540c95d50161f8.bindTooltip(
                 `<div>
                      1st Khoroolol station<br>
-                                7-day Average AQI: 23.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 22.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_88fd0d08d94a1421c712c5183be295f0 = L.circleMarker(
-                [47.91342999999983, 106.99790999999988],
+            var circle_marker_5567f8311131d38bc7e64dbf747f3116 = L.circleMarker(
+                [47.92799999999991, 106.92900000000007],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_88fd0d08d94a1421c712c5183be295f0.bindTooltip(
+            circle_marker_5567f8311131d38bc7e64dbf747f3116.bindTooltip(
+                `<div>
+                     US Embassy station<br>
+                                7-day Average AQI: 26.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_033019fb9fdfc3ae795fd5599157983b = L.circleMarker(
+                [47.91342999999983, 106.99790999999988],
+                {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
+        
+    
+            circle_marker_033019fb9fdfc3ae795fd5599157983b.bindTooltip(
                 `<div>
                      Amgalan station<br>
                                 7-day Average AQI: 33.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_60883851ef32e8a4a82719bec2b12a30 = L.circleMarker(
+            var circle_marker_3140b53f5db2ec941ead8b799031eff9 = L.circleMarker(
                 [47.91538200000009, 106.89419599999982],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_60883851ef32e8a4a82719bec2b12a30.bindTooltip(
+            circle_marker_3140b53f5db2ec941ead8b799031eff9.bindTooltip(
                 `<div>
                      West 4 Road station<br>
-                                7-day Average AQI: 4.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 7.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_cb7dbc4bd6599c11d901c20016528fc4 = L.circleMarker(
+            var circle_marker_abb8cf899a9686393b5ab3f52288bbf4 = L.circleMarker(
                 [47.95755999999989, 106.82275400000033],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_cb7dbc4bd6599c11d901c20016528fc4.bindTooltip(
+            circle_marker_abb8cf899a9686393b5ab3f52288bbf4.bindTooltip(
                 `<div>
                      Bayankhoshuu station<br>
-                                7-day Average AQI: 22.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 23.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_9ed5d9a0710e2c6f9afa9d456ea3a8bb = L.circleMarker(
+            var circle_marker_93ef33bc7726cc98a93d66916bd0ae00 = L.circleMarker(
                 [47.896942000000124, 106.90639000000007],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_9ed5d9a0710e2c6f9afa9d456ea3a8bb.bindTooltip(
+            circle_marker_93ef33bc7726cc98a93d66916bd0ae00.bindTooltip(
                 `<div>
                      Bogd Khan Museum station<br>
                                 7-day Average AQI: 4.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_8181bec0a7dafb38c78d6bece61ab9b2 = L.circleMarker(
+            var circle_marker_82c626b98f1d750e8ec03d76d5d82216 = L.circleMarker(
                 [47.917605999999985, 106.93735999999993],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_8181bec0a7dafb38c78d6bece61ab9b2.bindTooltip(
+            circle_marker_82c626b98f1d750e8ec03d76d5d82216.bindTooltip(
                 `<div>
                      Wrestling Palace station<br>
-                                7-day Average AQI: 21.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 18.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_a4dbb1737268f4d77e1f537219ea9600 = L.circleMarker(
-                [47.962982000000004, 106.9321600000002],
+            var circle_marker_d477c59f8fbb07b44feed3ba8879e068 = L.circleMarker(
+                [47.962982000000004, 106.93216000000021],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_a4dbb1737268f4d77e1f537219ea9600.bindTooltip(
+            circle_marker_d477c59f8fbb07b44feed3ba8879e068.bindTooltip(
                 `<div>
                      Dambarajaa station<br>
                                 7-day Average AQI: 29.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_170deb2596e540b4d6910878d3403f68 = L.circleMarker(
+            var circle_marker_a014d8f714dccafe9514808b53f7b29f = L.circleMarker(
                 [47.92973299999995, 106.88862599999996],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_170deb2596e540b4d6910878d3403f68.bindTooltip(
+            circle_marker_a014d8f714dccafe9514808b53f7b29f.bindTooltip(
                 `<div>
                      MNB station<br>
-                                7-day Average AQI: 12.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 11.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_45c0c5d68a10ddf05dbcd33b85853135 = L.circleMarker(
+            var circle_marker_ec008657b069e5fad0b1b3331060373c = L.circleMarker(
                 [47.77719499999986, 107.25264000000011],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_45c0c5d68a10ddf05dbcd33b85853135.bindTooltip(
+            circle_marker_ec008657b069e5fad0b1b3331060373c.bindTooltip(
                 `<div>
                      Nalaikh station<br>
-                                7-day Average AQI: 27.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 28.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_3230dc50e5708b5dbb95737806d52395 = L.circleMarker(
+            var circle_marker_1955209332b7eef787691b00df112fc6 = L.circleMarker(
                 [47.86394000000013, 106.77909],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_3230dc50e5708b5dbb95737806d52395.bindTooltip(
+            circle_marker_1955209332b7eef787691b00df112fc6.bindTooltip(
                 `<div>
                      Airport station<br>
                                 7-day Average AQI: 25.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_41ee765f095b238a86a74745a13129b9 = L.circleMarker(
+            var circle_marker_1aa5d8584782552648b0879c28f21134 = L.circleMarker(
                 [47.922496999999794, 106.79480999999976],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_41ee765f095b238a86a74745a13129b9.bindTooltip(
+            circle_marker_1aa5d8584782552648b0879c28f21134.bindTooltip(
                 `<div>
                      Tolgoit station<br>
-                                7-day Average AQI: 7.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 6.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_64751620ef7678eec39b791e130ecb9e = L.circleMarker(
+            var circle_marker_9f3c69bd1faac317b181e1d7148150c9 = L.circleMarker(
                 [47.95805699999988, 106.90166499999991],
                 {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00e400", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 7}
-            ).addTo(map_fe6d451eb470c29d7dc9b04e5eae709c);
+            ).addTo(map_edb53f36a7dd868fe878eb30d561afb8);
         
     
-            circle_marker_64751620ef7678eec39b791e130ecb9e.bindTooltip(
+            circle_marker_9f3c69bd1faac317b181e1d7148150c9.bindTooltip(
                 `<div>
                      Khailaast station<br>
-                                7-day Average AQI: 17.0<br>
-                                Dates: 2023-05-02 - 2023-05-09
+                                7-day Average AQI: 16.0<br>
+                                Dates: 2023-05-03 - 2023-05-10
                  </div>`,
                 {"sticky": true}
             );
